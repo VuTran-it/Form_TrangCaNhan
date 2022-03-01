@@ -1,0 +1,46 @@
+@media (max-width: 767px)
+{
+    .w-20
+    {
+        width: 20%;
+    }
+    .w-80
+    {
+        width: 80%;
+    }
+    .giaodien
+    {
+        width: 100%;
+    }
+    .ava img
+    {
+        width: 30%;
+    }
+    .link-item a
+    {
+        width: 70%;
+        padding: 0 0 0 15px;
+    }
+    .link-item
+    {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-bottom: 10px;
+    }
+    .link-item .text
+    {
+        display: none;
+    }
+    .hinhanh .row img:hover
+    {
+        transform: scale(2);
+        transition: 0.5s;
+    }
+    .hinhanh .row img
+    {
+        width: 40%;
+        margin-right: 20px;
+        margin-left: 0;
+    }
+}

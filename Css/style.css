@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Dùng chung */
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none !important;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col{
+    float: left;
+}
+
+.col-full{
+    width: 100%;
+}
+.col-hafl{
+    width: 50%;
+}
+.col-third{
+    width: 33%;
+}
+.w-40
+{
+    width: 40%;
+}
+.w-60
+{
+    width: 60%;
+}
+
+#main
+{
+    background-color: #b8d8e0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 1000px;
+}
+
+.giaodien
+{
+    background-color: #fcf5ef;
+    width: 60%;
+}
+
+.ava
+{
+    text-align: center;
+    margin-top: 5%;
+}
+.ava img
+{
+    width: 15%;
+    border-radius: 100%;
+    border: 3px solid #ff7235;
+}
+
+.ava .ten
+{
+    font-family: 'Vujahday Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tieusu
+{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border: 5px dotted #6db5ca;
+}
+
+.tieusu .text
+{
+    padding: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content
+{
+    margin-top: 40px;
+}
+
+.link-item img
+{   
+    width: 100%;
+}
+.link-item a
+{
+    width: 10%;
+}
+.link-item
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.link-item .text
+{
+    min-width: 90px;
+    margin-left: 10px;
+}
+
+.link-item .text a
+{
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+.hinhanh .row
+{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 30px;
+}
+.hinhanh .row img
+{
+    width: 30%;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(100, 100, 100);
+}
+
+.hinhanh .row img:hover
+{
+    transform: scale(2);
+    transition: 0.5s;
+}
